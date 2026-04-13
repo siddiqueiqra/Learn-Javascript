@@ -1,0 +1,13 @@
+let lapsCompleted = 0
+
+// 1. Define the function (The "Recipe")
+function incrementLap() {
+    lapsCompleted = lapsCompleted + 1
+}
+
+// 2. Call the function (Actually "Cooking" it)
+incrementLap() // lapsCompleted becomes 1
+incrementLap() // lapsCompleted becomes 2
+incrementLap() // lapsCompleted becomes 3
+
+console.log(lapsCompleted) // Output: 3
