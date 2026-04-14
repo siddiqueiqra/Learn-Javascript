@@ -1,0 +1,11 @@
+// 1. Grab the element from the HTML and store it in the variable
+let welcomeEl = document.getElementById("welcome-el");
+
+// 2. Create your variables
+let name = "Iqra";
+let greeting = "Hi, my name is ";
+
+// 3. Render the welcome message by combining greeting + name
+// We assign the string to .innerText to display it
+welcomeEl.innerText = greeting + name;
+
