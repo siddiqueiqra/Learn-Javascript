@@ -1,0 +1,18 @@
+let myPoints = 3
+
+function add3Points() {
+    myPoints += 3 // This is shorthand for myPoints = myPoints + 3
+}
+
+function remove1Point() {
+    myPoints -= 1 // This is shorthand for myPoints = myPoints - 1
+}
+
+// Call the functions in the right order to reach 10:
+add3Points() // 3 + 3 = 6
+add3Points() // 6 + 3 = 9
+add3Points() // 9 + 3 = 12
+remove1Point() // 12 - 1 = 11
+remove1Point() // 11 - 1 = 10
+
+console.log(myPoints) // Output: 10
