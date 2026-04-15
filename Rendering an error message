@@ -1,0 +1,6 @@
+let errorEl = document.getElementById("error")
+
+function purchase() {
+    console.log("Button clicked") // Good for debugging!
+    errorEl.textContent = "Something went wrong, please try again"
+}
